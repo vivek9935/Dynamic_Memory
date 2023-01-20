@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 int main() {
-int *p=new int;
+char *p=new char;
   cout<<*p<<endl;
   cout<<sizeof(*p)<<endl;
-  *p=6;
+  *p='9';
   cout<<*p;
 }
